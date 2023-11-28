@@ -46,7 +46,7 @@ More text
     This is a test
 
 
-!!! note "Test"
+!!! info "Test"
     test
 
 ??? note
