@@ -34,6 +34,10 @@ extra_css:
   - stylesheets/extra.css
   #- stylesheets/code_highlight/luau.css
 
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/tags.js
+
 markdown_extensions:
   - pymdownx.highlight:
         use_pygments: true
