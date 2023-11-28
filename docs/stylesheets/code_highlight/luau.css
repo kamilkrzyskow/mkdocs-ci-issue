@@ -12,9 +12,14 @@
     /*--md-code-bg-color: #252525;*/
 }
 
-/* Methods */
-:root code > .p + .n {
-    color: #FDFBAC;
+/* Property */
+:root code > .p + .n,
+:root code > .p + .nc {
+    color: #61A1F1;
+}
+
+:root code > .nc {
+    color: #CCCCCC;
 }
 
 /* Keywords */
