@@ -18,9 +18,11 @@
     color: #61A1F1;
 }
 
+/* fix */
 :root code > .nc {
     color: #CCCCCC;
 }
+
 
 /* Keywords */
 :root code > .kd,
