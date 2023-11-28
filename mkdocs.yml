@@ -4,9 +4,9 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.instant
-    - navigation.sections
-    #- toc.integrate
+    #- navigation.instant
+    #- navigation.sections
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.annotation
