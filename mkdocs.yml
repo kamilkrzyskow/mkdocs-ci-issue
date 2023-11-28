@@ -4,7 +4,7 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - toc.integrate
+    #- toc.integrate
     - search.suggest
     - search.highlight
     - content.code.annotation
