@@ -44,27 +44,10 @@ test4.a.b.c
 function test(a, b)
 ```
 
-##### Arguments
 <args>
-Hello
+    <arg name="arg1" type="string">The first argument.</arg>
+    <arg name="arg2" type="string">The second argument.</arg>
 </args>
-<table>
-<tr>
-    <th>Name</th>
-    <th>Type</th>
-    <th>Description</th>
-</tr>
-<tr>
-    <td>a</td>
-    <td>string</td>
-    <td>-</td>
-</tr>
-<tr>
-    <td>b</td>
-    <td>number</td>
-    <td>-</td>
-</tr>
-</table>
 
 ##### Returns
 Nothing
