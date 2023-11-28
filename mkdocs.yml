@@ -37,7 +37,13 @@ markdown_extensions:
   - pymdownx.superfences
 
   - pymdownx.details
+
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.tilde
+
   - pymdownx.snippets
   - pymdownx.inlinehilite
 
