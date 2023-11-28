@@ -14,6 +14,23 @@ Some `code`
 local test = "test"
 ```
 
+```lua title="Title Test"
+-- Comment test
+local test = 123
+local test2 = 1 + 1
+
+function test() {
+    
+}
+
+local test3 = {}
+
+test3.func1() {
+
+}
+test3.func1()
+```
+
 
 ## Another heading
 

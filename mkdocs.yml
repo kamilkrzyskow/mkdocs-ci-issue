@@ -28,11 +28,19 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  #- stylesheets/code_highlight/luau.css
 
 markdown_extensions:
   - pymdownx.highlight:
         use_pygments: true
+        anchor_linenums: true
   - pymdownx.superfences
+
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+
   - toc:
       permalink: true
   - footnotes
