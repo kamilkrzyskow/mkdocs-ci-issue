@@ -41,8 +41,12 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.inlinehilite
 
+  - pymdownx.arithmatex:
+      generic: true
+
   - toc:
       permalink: true
+  - admonition
   - footnotes
   - attr_list
 

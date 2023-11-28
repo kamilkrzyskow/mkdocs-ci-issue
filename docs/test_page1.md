@@ -37,6 +37,21 @@ test3.func1()
 More text
 
 
+!!! note
+    This is a test
+
+
+!!! note "Test"
+    test
+
+??? note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+!!! info inline end "Inline test"
+    test
 
 <br>
 <br>
