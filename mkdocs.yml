@@ -1,1 +1,44 @@
-site_name: My Docs
+site_name: mkdocs testing
+#theme: readthedocs
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+
+  language: en
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+        use_pygments: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - footnotes
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Test Pages:
+    - Page 1: test_page1.md
