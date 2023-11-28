@@ -36,6 +36,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - footnotes
+  - attr_list
 
 nav:
   - Home: index.md
