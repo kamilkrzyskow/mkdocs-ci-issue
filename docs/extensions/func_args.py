@@ -35,6 +35,8 @@ import textwrap
 def processArgsElement(argsElement):    
     html_args = ""
 
+    arg_count = 1
+
     for arg_element in argsElement.findall(".//arg"):
 
         argName = arg_element.attrib.get("name")
@@ -43,12 +45,13 @@ def processArgsElement(argsElement):
         
         html_args += f'''
         <tr>
-            <td><b>{argName}</b></td>
+            <td>{arg_count}: <b>{argName}</b></td>
             <td>{argType}</td>
             <td>{arg_element.text}</td>
         </tr>
         '''
 
+        arg_count += 1 # increment
     
     result = textwrap.dedent(f'''
     <div>
