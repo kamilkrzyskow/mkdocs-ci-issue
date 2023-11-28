@@ -12,6 +12,18 @@
     /*--md-code-bg-color: #252525;*/
 }
 
+/* Methods */
+:root code > .p + .n {
+    color: #FDFBAC;
+}
+
+/* Keywords */
+:root code > .kd,
+:root code > .kr {
+    font-weight: bold;
+}
+
+
 /*"RobloxDefault": {
     "Default": "#CCCCCC",
     "Operator": "#CCCCCC",
