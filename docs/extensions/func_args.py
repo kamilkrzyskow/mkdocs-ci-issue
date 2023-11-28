@@ -41,6 +41,7 @@ def processArgsElement(argsElement):
 
         argName = arg_element.attrib.get("name")
         argType = arg_element.attrib.get("type")
+        argDefault = arg_element.attrib.get("default")
 
         
         html_args += f'''

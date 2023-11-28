@@ -49,9 +49,9 @@ function test(a, b)
     <arg name="arg2" type="string">The second argument.</arg>
 </args>
 
-##### Returns
-Nothing
-
+<rets>
+    <ret name="" type="nil">Nothing</ret>
+</rets>
 
 ## Another heading
 
