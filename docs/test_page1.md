@@ -58,6 +58,31 @@ More text
 !!! info inline end "Inline test"
     test
 
+Text can be {--deleted--} and replacement text {++added++}. This can also be
+combined into {~~one~>a single~~} operation. {==Highlighting==} is also
+possible {>>and comments can be added inline<<}.
+
+{==
+
+Formatting can also be applied to blocks by putting the opening and closing
+tags on separate lines and adding new lines between the tags and the content.
+
+==}
+
+<div class="grid" markdown>
+Test
+{ .card }
+
+Test2
+{ .card }
+
+Test3
+{ .card }
+
+>Test4
+{ .card }
+</div>
+
 === "Test"
     test
 === "Test2"
