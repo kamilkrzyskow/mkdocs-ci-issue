@@ -1,0 +1,25 @@
+.tag {
+    color: #ffffff;
+    line-height: .8rem;
+    padding: 5px;
+    margin-left: 7px !important;
+    margin: 0 !important; 
+    background-clip: padding-box;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: .7rem;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+.tag.client-only {
+    background-color: hsl(45, 92%, 40%)
+}
+
+.tag.server-only {
+    background-color: rgb(89, 140, 206);
+}
+
+.tag.deprecated {
+    background-color: hsl(20, 73%, 38%)
+}

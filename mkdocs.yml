@@ -1,4 +1,8 @@
 site_name: mkdocs testing
+
+repo_name: Repository Name
+repo_url: https://github.com/karl-police/mkdocs-testing
+
 #theme: readthedocs
 theme:
   name: material
@@ -6,7 +10,7 @@ theme:
     - navigation.tabs
     #- navigation.instant
     #- navigation.sections
-    - toc.integrate
+    #- toc.integrate
     - search.suggest
     - search.highlight
     - content.code.annotation
@@ -32,6 +36,7 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/tags.css
   #- stylesheets/code_highlight/luau.css
 
 extra_javascript:
@@ -39,6 +44,8 @@ extra_javascript:
   - javascripts/tags.js
 
 markdown_extensions:
+  #- docs.extensions.func_args
+
   - pymdownx.highlight:
         use_pygments: true
         anchor_linenums: true
@@ -82,7 +89,8 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - Home: index.md
+  - Home:
+    - Index: index.md
+    - Test Pages:
+      - Page 1: test_page1.md
   - About: about.md
-  - Test Pages:
-    - Page 1: test_page1.md

@@ -37,6 +37,39 @@ test4.a.b.c
 ```
 
 
+#### test
+{{client-only}} {{server-only}} {{deprecated}}
+
+```lua
+function test(a, b)
+```
+
+##### Arguments
+<args>
+Hello
+</args>
+<table>
+<tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td>a</td>
+    <td>string</td>
+    <td>-</td>
+</tr>
+<tr>
+    <td>b</td>
+    <td>number</td>
+    <td>-</td>
+</tr>
+</table>
+
+##### Returns
+Nothing
+
+
 ## Another heading
 
 More text
