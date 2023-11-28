@@ -58,6 +58,11 @@ More text
 !!! info inline end "Inline test"
     test
 
+=== "Test"
+    test
+=== "Test2"
+    test2
+
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
