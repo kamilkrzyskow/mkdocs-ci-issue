@@ -62,7 +62,9 @@ markdown_extensions:
       permalink: true
   - admonition
   - footnotes
+  - abbr
   - attr_list
+  - def_list
 
 nav:
   - Home: index.md
