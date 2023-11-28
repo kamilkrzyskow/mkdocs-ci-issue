@@ -3,6 +3,7 @@ site_name: mkdocs testing
 theme:
   name: material
   features:
+    - navigation.tabs
     - toc.integrate
     - search.suggest
     - search.highlight
