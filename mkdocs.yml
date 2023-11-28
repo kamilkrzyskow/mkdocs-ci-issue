@@ -8,6 +8,7 @@ theme:
     - search.highlight
     - content.code.annotation
     - content.code.copy
+    - content.tooltips
 
   language: en
 
