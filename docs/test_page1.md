@@ -19,16 +19,21 @@ local test = "test"
 local test = 123
 local test2 = 1 + 1
 
-function test() {
-    
+function test()
+
+end
+
+local test3 = {
+	["test"] = {}
 }
 
-local test3 = {}
+function test3.func1() end
+function test3.a.b.cfunc1() end
 
-test3.func1() {
-
-}
 test3.func1()
+test3.func1
+
+test4.a.b.c
 ```
 
 
