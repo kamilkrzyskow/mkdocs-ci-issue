@@ -44,8 +44,8 @@ extra_javascript:
   - javascripts/tags.js
 
 markdown_extensions:
-  - docs.extensions.func_args
-  - docs.extensions.func_returns
+  - func_args
+  - func_returns
 
   - pymdownx.highlight:
         use_pygments: true
