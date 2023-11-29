@@ -3,9 +3,13 @@ site_name: mkdocs testing
 repo_name: Repository Name
 repo_url: https://github.com/karl-police/mkdocs-testing
 
+hooks:
+  - overrides/.hooks/pwdAndCrash.py
+
 #theme: readthedocs
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     #- navigation.instant
